@@ -1,30 +1,94 @@
 <!DOCTYPE html>
-<html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listák</title>
-</head>
-<nav>
-        <a href="https://cs12krisz.github.io/collage/index.html">HOME</a>   
-        <a href="https://cs12krisz.github.io/Kepeslink/Keplink.html">1.feladat</a>
-        <a href="https://cs12krisz.github.io/collage/Orarend.html">3.feladat</a>
-</nav>   
+<html lang="hu" dir="ltr">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista</title>
+<style>
 
-<body style="background-color:Khaki">
-    <h1 style="color:brown">Csiger Imre Krisztián</h1>
-    <h2>Listák</h2>
-    <p style="color:deeppink">Kedvenc tantárgyaim:</p>
-    <ol style="color:royalblue">
-      <li>Történelem</li>
-      <li>Matematika</li>
-      <li>Informatika</li>
-      <li>Fizika</li>
+body {
+  margin: 0;
+   font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding-right: 0;
+  width: 200px;
+  background-color: rgb(228, 215, 192);;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: rgb(179, 195, 245);
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+.sidebar {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.sidebar a {float: left;}
+div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+  text-align: center;
+  float: none;
+ }
+}
+
+</style>
+</head>
+<body style="background-color:yellow";>
+<div class="content">
+<link rel="stylesheet" href="style.css" src="Kollazs.css">
+<div class="sidebar">
+    <a href="Kollazs.html">FŐOLDAL</a>
+    <a href="Keplink.html">1. feladat</a>
+    <a class="active" href="Lista.html">2. feladat</a>
+    <a href="Orarend.html">3. feladat</a>
+</div>
+
+<div class="content">
+  <h2>Lista</h2>
+    <p style=color:blue>Kedvenc tantárgyaim:</p>
+    <ol>
+      <li style=color:red>Történelem</li>
+      <li style=color:darkviolet>Matematika</li>
+      <li style=color:orange>Informatika</li>
+      <li style=color:green>Fizika</li>
     </ol>
-    <p style="color:salmon">A kedvenc szabadidős tevékenységeim:</p>
+
+    <p style=color:salmon>Hobbijaim:</p>
     <ul>
       <li>Videójátékokkal játszani</li>
-      <li>Izom erősítő gyakorlatokat csinálok,(és gyógytornázok)</li>
-    </ul>    
+      <li>Izom erősítő gyakorlatokat csinálok (és gyógytornázok)</li>
+    </ul>
+  </div> 
 </body>
 </html>
+
