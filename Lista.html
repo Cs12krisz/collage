@@ -1,21 +1,22 @@
 <!DOCTYPE html>
+<!-- saved from url=(0044)file:///D:/Munka/Els%C5%91%20weboldalom.html -->
 <head>
 <html lang="hu" dir="ltr">
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 <title>Lista</title>
 <style>
 
 body {
   margin: 0;
-   font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .sidebar {
   margin: 0;
-  padding-right: 0;
+  padding: 0;
   width: 200px;
-  background-color: rgb(228, 215, 192);;
+  background-color: rgb(228, 215, 192);
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -35,7 +36,7 @@ body {
 
 .sidebar a:hover:not(.active) {
   background-color: #555;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 div.content {
@@ -45,50 +46,55 @@ div.content {
 }
 
 @media screen and (max-width: 700px) {
-.sidebar {
-  width: 100%;
-  height: auto;
-  position: relative;
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  sidebar a{
+    float:left
 }
-.sidebar a {float: left;}
-div.content {margin-left: 0;}
+
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
   .sidebar a {
-  text-align: center;
-  float: none;
- }
+    text-align: center;
+    float: none;
+  }
 }
 
 </style>
 </head>
-<body style="background-color:yellow";>
-<div class="content">
-<link rel="stylesheet" href="style.css" src="Kollazs.css">
+<body>
 <div class="sidebar">
-    <a href="index.html">FŐOLDAL</a>
-    <a href="Keplink.html">1. feladat</a>
-    <a class="active" href="Lista.html">2. feladat</a>
-    <a href="Orarend.html">3. feladat</a>
+<nav>
+   <a href="index.html">FŐOLDAL</a>   
+   <a href="Keplink.html">1. feladat</a>
+   <a class="active" href="Lista.html">2. feladat</a>
+   <a href="Orarend.html">3. feladat</a>
+</nav>
 </div>
 
 <div class="content">
-  <h2>Lista</h2>
-    <p style=color:blue>Kedvenc tantárgyaim:</p>
-    <ol>
-      <li style=color:red>Történelem</li>
-      <li style=color:darkviolet>Matematika</li>
-      <li style=color:orange>Informatika</li>
-      <li style=color:green>Fizika</li>
+<body style="background-color:Khaki">
+    <h1 style="color:brown">Csiger Imre Krisztián</h1>
+    <h2>Listák</h2>
+    <p style="color:deeppink">Kedvenc tantárgyaim:</p>
+    <ol style="color:royalblue">
+      <li>Történelem</li>
+      <li>Matematika</li>
+      <li>Informatika</li>
+      <li>Fizika</li>
     </ol>
-
-    <p style=color:salmon>Hobbijaim:</p>
+    <p style="color:salmon">A kedvenc szabadidős tevékenységeim:</p>
     <ul>
       <li>Videójátékokkal játszani</li>
-      <li>Izom erősítő gyakorlatokat csinálok (és gyógytornázok)</li>
+      <li>Izom erősítő gyakorlatokat csinálok,(és gyógytornázok)</li>
     </ul>
-  </div> 
+</div>
 </body>
 </html>
-

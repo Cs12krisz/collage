@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<head>
 <html lang="hu" dir="ltr">
-<meta charset="UTF-8"> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kép+link</title>
 <style>
-
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
@@ -34,7 +33,7 @@ body {
 
 .sidebar a:hover:not(.active) {
   background-color: #555;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 div.content {
@@ -55,23 +54,26 @@ div.content {
 
 @media screen and (max-width: 400px) {
   .sidebar a {
-   text-align: center;
-   float: none;
+    text-align: center;
+    float: none;
   }
 }
 
 </style>
 </head>
 <body>
+
+<div class="sidebar">
+    <nav>
+    <a href="index.html">FŐOLDAL</a>
+    <a class="active" href="Keplink.html">1. feladat</a>
+    <a href="Lista.html">2. feladat</a>
+    <a href="Orarend.html">3. feladat</a>
+   </nav>
+</div>
+
 <div class="content">
-    <div class="sidebar">
-        <a href="index.html">FŐOLDAL</a>
-        <a class="active" href="Keplink.html">1. feladat</a>
-        <a href="Lista.html">2. feladat</a>
-        <a href="Orarend.html">3. feladat</a>
-    </div>
-<div class="content">
-  <h2>Kép+link</h2>
+<h2>Kép+link</h2>
 <h2 style="color:orange">A narancs</h2>
 <a href="https://hu.wikipedia.org/wiki/Narancs">
 <img #border="0" alt="Narancs" src="Narancs.jpg" height=500/https://cdn.kifli.hu/images/grocery/products/31579/31579-1579263445.jpg>
@@ -79,4 +81,3 @@ div.content {
 </div>
 </body>
 </html>
-
