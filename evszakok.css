@@ -1,35 +1,89 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+}
 
 h1{
     text-align: center;
+    font-size: 60px;
 }
 
 .content{
-   background-color: red;
-    width: 800px;
+    width: 2000px;
     height: 400px;
 }
 
+img{
+    border-radius: 100px;
+    width: 400px;
+}
+
 .box1{
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
     float: left;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 50px;
+    margin-top: 25px;
     transition: 1s;
-    border-radius: 100%;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
 }
 
 .box2{
-    background-color: orange;
-    width: 200px;
-    height: 200px;
-    float: right;
-    margin-right: 100px;
-    margin-top: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 40px;
+    transition: 1s;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-color: rgb(14, 177, 63);
+    background-color: rgb(14, 177, 63);
+    height: 430px;
 }
 
+.box3{
+    float: left;
+    margin-left: 50px;
+    margin-top: 25px;
+    transition: 1s;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-color: rgb(173, 101, 53);
+    background-color: rgb(173, 101, 53);
+}
+
+.box4{
+    float: left;
+    margin-left: 100px;
+    margin-top: 28px;
+    transition: 1s;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    border-color: rgb(0, 132, 255, 0.966);
+    background-color: rgb(0, 132, 255, 0.966);
+}
+
+
 .box1:hover{
-    background-color: black;
+    transform: scale(1.2);
+}
+
+.box2:hover{
+    transform: scale(1.2);
+}
+
+.box3:hover{
+    transform: scale(1.2);
+}
+
+.box4:hover{
     transform: scale(1.2);
 }
