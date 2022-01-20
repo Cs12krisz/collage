@@ -62,12 +62,13 @@ img{
 .p2{
     text-align: center;
     margin-left: 40px;
-    color: yellow;
+    color: rgb(243, 243, 26);
+}
 
 .p3{
     text-align: center;
     margin-left: 40px;
-    color: rgb(197, 47, 47);
+    color: rgb(206, 52, 52);
 }
 
 .p4{
@@ -91,5 +92,4 @@ img{
 .box4:hover{
     transform: scale(1.3);
 }
-
 
