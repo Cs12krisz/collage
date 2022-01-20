@@ -6,9 +6,9 @@ h1{
     text-align: center;
     font-size: 60px;
 }
-
 .content{
-    width: 2000px;
+   background-color: red;
+    width: 1800px;
     height: 400px;
 }
 
