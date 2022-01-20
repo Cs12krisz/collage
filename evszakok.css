@@ -7,84 +7,86 @@ h1{
     font-size: 60px;
 }
 .content{
-   background-color: red;
-    width: 1800px;
+    width: 1600px;
     height: 400px;
 }
 
 img{
-    border-radius: 100px;
+    border-radius: 100%;
     width: 300px;
+    margin-left: 50px;
 }
 
 .box1{
     float: left;
-    margin-left: 50px;
-    margin-top: 25px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
     transition: 1s;
-    border-radius: 100px;
     text-align: center;
     font-size: 50px;
-    border-style: solid;
-    border-color: yellow;
-    background-color: yellow;
 }
 
 .box2{
     float: left;
-    margin-left: 100px;
+    margin-right: 30px;
     margin-top: 30px;
-    margin-right: 40px;
+    margin-right: 30px;
     transition: 1s;
-    border-radius: 100px;
     text-align: center;
     font-size: 50px;
-    border-style: solid;
-    border-color: rgb(14, 177, 63);
-    background-color: rgb(14, 177, 63);
-    height: 430px;
 }
 
 .box3{
     float: left;
-    margin-left: 50px;
-    margin-top: 25px;
+    margin-right: 30px;
+    margin-top: 30px;
     transition: 1s;
-    border-radius: 100px;
     text-align: center;
     font-size: 50px;
-    border-style: solid;
-    border-color: rgb(173, 101, 53);
-    background-color: rgb(173, 101, 53);
 }
 
 .box4{
     float: left;
-    margin-left: 100px;
-    margin-top: 28px;
+    margin-top: 30px;
     transition: 1s;
-    border-radius: 100px;
     text-align: center;
     font-size: 50px;
-    border-style: solid;
-    border-color: rgb(0, 132, 255, 0.966);
-    background-color: rgb(0, 132, 255, 0.966);
 }
 
+.p1{
+    text-align: center;
+    margin-left: 30px;
+}
+
+.p2{
+    text-align: center;
+    margin-left: 30px;
+}
+
+.p3{
+    text-align: center;
+    margin-left: 30px;
+}
+
+.p4{
+    text-align: center;
+    margin-left: 30px;
+}
 
 .box1:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .box2:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .box3:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .box4:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
