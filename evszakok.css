@@ -92,3 +92,16 @@ img{
 .box4:hover{
     transform: scale(1.3);
 }
+
+.labjegyzet{
+    margin-right: auto;
+    margin-left: 0;
+    width: 1910px;
+    height: 125px;
+    background-color: chocolate; 
+}
+
+.p5{
+    text-align: center;
+    margin-top: 500px;
+}
