@@ -1,114 +1,99 @@
-<!DOCTYPE html>
-<html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For ciklus</title>
-</head>
-<body>
-
-<h2>2. feladat</h2>
+<h2>For ciklus</h2>
 <script>
-    document.write("**********")
-</script>
+document.writeln("1. feladat:<br>")    
+document.writeln("**********")
+document.write("<br>")
 
+document.writeln("0000000000")
+document.write("<br>")
 
-<h2>3. feladat</h2>
-<script>
-    document.write("*o*o*o*o*o<br>*o*o*o*o*o")
-</script>
+document.writeln("4. feladat:<br>")   
+var szam=parseInt(prompt("Kérek egy számot!"))
+var szam2=parseInt(prompt("Kérek egy másik számot!"))
+document.write(szam+szam)
+document.write("<br>")
 
-
-<h2>9. feladat</h2>
-<script>
-
-for (let i = 0; i<=1000; i=i+2 ){
-
-    document.writeln(i);
-}
-
-
-</script>
-
-<h2>10. feladat</h2>
-<script>
-var i = 100;
-while (i <= 800) {
-document.write(i +" ")    
-i++
-}
-</script>
-
-
-<h2></h2>
-<script>
-for (let i=2; i<=20; i=i+2){
-    document.writeln(i)
-}
-
-
-</script>
-
-
-
-<h2>13. feladat</h2>
-
-<script>
-for (let i=3; i<=100; i=i+3){
-    document.writeln(i)
-}
-
-</script>
-
-
-
-<h2>9. feladat</h2>   
-<script>
-var i = 0;
-while (i<1001) {
-document.write(i +" ")
-i++
-}
-</script>
-
-
-<h2>10. feladat</h2>
-<script>
-var i = 100;
-while (i <= 800) {
-document.write(i +" ")    
-i++
-}
-</script>
-
-<h2>11. feladat</h2>
-<script>
-    for (let i=0; i<10; i++){
-        document.writeln(i)
+document.writeln("9. feladat:<br>")  
+for (let i=0;i<=1000;i++){    
+   document.writeln(i); 
     }
-</script>
-
-<h2>16. feladat</h2>
-<script>
-    for (let i=1; i<=10; i=i+1){
-    document.writeln(i)
+document.write("<br>")
+document.writeln("10. feladat:<br>")  
+for (let i=100;i<=800;i++){    
+   document.writeln(i); 
     }
-</script>
-
-<h2>20. feladat</h2>
-<script>
-    for (let i=50; i>=10; i++){
-        document.writeln(i)
+document.write("<br>")
+document.writeln("11. feladat:<br>")  
+for (let i=0;i<=10;i++){    
+   document.writeln(i); 
     }
-</script>
+document.write("<br>")
 
-<h2>20.feladat</h2>
-<script>
-    for (let i=1; i<=10; i=i*i){
-        document.writeln(i*i)
+
+document.writeln("12. feladat:<br>")  
+for (let i=0;i<=10;i=i+2){  
+   
+   document.writeln(i); 
     }
+document.write("<br>")
 
+document.writeln("13. feladat:<br>")  
+for (let i=0;i<=100;i=i+3){  
+    document.writeln(i); 
+    }
+	document.write("<br>")
+
+document.writeln("14. feladat:<br>") 
+var szam=parseInt(prompt("Kérek egy számot!"))
+document.write(szam*2)
+document.write("<br>") 
+
+document.writeln("15. feladat:<br>") 
+document.write(0+1+2+3+4)
+document.write("<br>") 
+var osszeg=0
+for (let i=0;i<5;i++){  
+    osszeg+=i 
+    }
+document.write(osszeg)	
+document.write("<br>")
+
+document.writeln("16. feladat:<br>")  
+for (let i=0;i<=10;i++){      
+	document.writeln(i*i); 
+    }
+document.write("<br>")
+
+document.writeln("17. feladat:<br>")  
+for (let i=0;i<=1000;i++){  
+    if (i*i<1000){
+	document.writeln(i*i); 
+	}
+    }
+document.write("<br>")
+	
+document.writeln("18. feladat:<br>")  
+for (let i=1;i<=100;i++){  
+   if(i%2==0){
+   document.writeln(i); 
+    }
+    }
+document.write("<br>")
+
+document.writeln("19. feladat:<br>") 
+var szam=parseInt(prompt("Kérek egy számot!"))
+var szam2=parseInt(prompt("Kérek egy másik számot!"))
+document.write(szam*szam)
+document.write("<br>")
+document.write(szam2*szam2)
+document.write("<br>")
+
+document.writeln("20. feladat:<br>")  
+for (let i=50;i>=10;i--){  
+   if(i%2==0){
+   document.writeln(i); 
+    }}
+document.write("<br>")
 </script>
-
 </body>
 </html>
