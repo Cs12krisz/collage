@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pita 2</title>
+</head>
+
+<body>
+    <input type="number" placeholder="x" id="x_szam">
+    <input type="number" placeholder="y" id="y_szam">
+    <br>
+    <br>
+    <button onclick="osszead(x_szam.value,y_szam.value)" style="width: 100px;">+ (összead)</button>  Eredmény:<button id="osszeg" style="width: 50px;"></button>
+    <br>
+    <br>
+    <button onclick="kivon(x_szam.value,y_szam.value)" style="width: 100px;">- (kivon)</button>  Eredmény:<button id="kivonas" style="width: 50px;"></button>
+    <br>
+    <br>
+    <button onclick="szoroz(x_szam.value,y_szam.value)" style="width: 100px;">* (szoroz)</button>  Eredmény:<button id="szorzat" style="width: 50px;"></button>
+    <br>
+    <br>
+    <button onclick="oszt(x_szam.value,y_szam.value)" style="width: 100px;">/ (oszt)</button>  Eredmény:<button id="oszto" style="width: 50px;"></button>
+    <script>
+        function osszead(x,y) {
+            var c = 0
+            c = (Number(x) + Number(y))
+            document.getElementById('osszeg').innerHTML = c
+            alert(c)
+        }
+        function kivon(x,y) {
+            var c = 0
+            c = (Number(x) - Number(y))
+            document.getElementById('kivonas').innerHTML = c
+            alert(c)
+        }
+        function szoroz(x,y) {
+            var c = 0
+            c = (Number(x) * Number(y))
+            document.getElementById('szorzat').innerHTML = c
+            alert(c)
+        }
+        function oszt(x,y) {
+            var c = 0
+            c = (Number(x) / Number(y))
+            document.getElementById('oszto').innerHTML = c
+            alert(c)
+        }
+
+    </script>
+
+
+</body>
+</html>
