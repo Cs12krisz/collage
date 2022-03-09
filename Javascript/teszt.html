@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>5. feladat</h1>
+    <p id="osszeadas"></p>
+    <p id="szorzat"></p>
+    <script>
+        var a = parseInt(prompt("Kérek egy számot! (5 szám lesz)"))
+         var b = parseInt(prompt("Kérek egy számot!"))
+         var c = parseInt(prompt("Kérek egy számot!"))
+         var d = parseInt(prompt("Kérek egy számot!"))
+         var e = parseInt(prompt("Kérek egy számot!"))
+          osszeg = (a+b+c+d+e)
+          document.getElementById('osszeadas').innerHTML = osszeg
+         
+          szorzas = (a*b*c*d*e)
+          document.getElementById('szorzat').innerHTML = szorzas
+         </script>
+    <br>
+    <h1>6. feladat</h1>
+    <p id="negyzet"></p>
+<script>
+var x = parseInt(prompt("Kérek egy számot! (négyzetes)"))
+    y = Math.sqrt(x)
+    document.getElementById('negyzet').innerHTML = y
+</script>
+<br>
+<h1>7. feladat</h1>
+<p id="1lap"></p>
+<br>
+<p id="2lap"></p>
+<script>
+var meret1 = parseInt(prompt("Kérek egy szélességet!"))
+var meret2 = parseInt(prompt("Kérek egy magasságot!"))
+var aoldal = 40
+var boldal = 50
+
+
+var ertek1 = Math.trunc(aoldal/meret1) 
+var ertek2 = Math.trunc(boldal/meret2) 
+var megoldas1 = ertek1*ertek2
+document.getElementById('1lap').innerHTML = megoldas1
+
+
+var ertek3 =  Math.trunc(aoldal/meret2)
+var ertek4 = Math.trunc(boldal/meret1)
+var megoldas2 = ertek3*ertek4
+document.getElementById('2lap').innerHTML = megoldas2
+
+
+
+</script>
+    
+
+
+</body>
+</html>
